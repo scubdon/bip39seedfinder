@@ -23,5 +23,7 @@ for i in range(len(words)):
       count += 1
     else:
       break
-  if count >= 12:
+  if count == 12:
     print(cur_sequence)
+  elif count == 24:
+      print(cur_sequence)
